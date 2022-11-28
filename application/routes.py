@@ -29,7 +29,7 @@ def carclassify():
 
     #url for car classification api
     #url = "http://localhost:5000/api"
-    url = "https://dsm-car-model.herokuapp.com/api"
+    url = "https://car-model-6002.herokuapp.com/api"
 
  
     #post data to url
