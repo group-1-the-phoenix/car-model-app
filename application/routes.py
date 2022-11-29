@@ -28,8 +28,8 @@ def carclassify():
     input_data = json.dumps({"buying": buying, "maint": maint, "doors": doors, "persons": persons, "lug_boot": lug_boot, "safety": safety})
 
     #url for car classification api
-    #url = "http://localhost:5000/api"
-    url = "https://car-model-6002.herokuapp.com/api"
+    url = "http://localhost:5000/api"
+    # url = "https://car-model-6002.herokuapp.com/api"
 
  
     #post data to url
